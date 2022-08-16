@@ -30,20 +30,23 @@ font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-family: 'Dancing Script', cursive;
 }
-
-h1{
+h1 {
+    font-weight: normal;
+}
+.name{
     font-family: 'Dancing Script', cursive;
 }
 
 p {
+    text-align: center;
     top: 90px;
-    position: fixed;
-    left: 497px;
+    position: absolute;
+    left: 500px;
 }
 
 .deputada {
+    margin: 0 524px;
     background-color: var(--color-secunday);
-    margin: 10px 500px;
     font-size: 22px;
     font-weight: 400;
     border-radius: 10px;
@@ -81,6 +84,17 @@ h3 {
     text-decoration: none;
 }
 
+@media(min-width:300px){
+    .deputada {
+        margin: 10px 30px;
+    }
+}
+
+@media(min-width:300px) {
+    p {
+        left:10px
+    }
+}
 
 
 
